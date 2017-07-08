@@ -1,9 +1,42 @@
 body {
   display: block;
   margin: 0;
+  font-family: 'FundamentalBrigade';
+}
+
+@font-face {
+  font-family: 'FundamentalBrigade';
+  src: url('fonts/FundamentalBrigade.woff') format('woff'),
+       url('fonts/FundamentalBrigade.ttf') format('truetype'),
+       url('fonts/FundamentalBrigade.svg#FundamentalBrigade') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 .fullscreen-container {
   height: 100vh;
   background-color: #f1f1f1;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+}
+.gate-types{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 24px 72px;  
+}
+
+.gate-type{
+    width:245px;
+    height:195px;
+    background-color: aqua;
 }
