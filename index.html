@@ -1,7 +1,38 @@
 <html>
-<<<<<<< HEAD
     <head>
       <link rel="stylesheet" href="style.css">
+      <script src="js/vue.js" charset="utf-8"></script>
+  <script type="text/x-template" id="modal-template">
+    <transition name="modal">
+      <div class="modal-mask">
+        <div class="modal-wrapper">
+          <div class="modal-container">
+
+            <div class="modal-header">
+              <slot name="header">
+                default header
+              </slot>
+            </div>
+
+            <div class="modal-body">
+              <slot name="body">
+                default body
+              </slot>
+            </div>
+
+            <div class="modal-footer">
+              <slot name="footer">
+                default footer
+                <button class="modal-default-button" @click="$emit('close')">
+                OK
+              </button>
+              </slot>
+            </div>
+          </div>
+        </div>
+      </div>
+    </transition>
+  </script>
     </head>
     <title>Gaudi Gates</title>
     <body>
@@ -10,13 +41,15 @@
            <div class="logo"><img src="images/logo.svg" alt=""></div>
                <div class="header-right">
                    <div class="main-menu">
-                       <li>Главная</li>
-                       <li>Типы ворот</li>
-                       <li>Отзывы</li>  
-                       <li>Полезные советы</li>  
-                       <li>Контакты</li>
+                       <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Типы ворот</a></li>
+                            <li><a href="#">Отзывы</a></li>  
+                            <li><a href="#">Полезные советы</a></li>  
+                            <li><a href="#">Контакты</a></li>
+                       </ul>
                    </div>
-                   <div class="phone">+789789489</div>
+                   <div class="phone">+7 (499) 391-16-81</div>
                </div>
         </header>
             <div class="slider-container">
@@ -55,47 +88,6 @@
         <div class="fullscreen-container">3</div>
         <div class="fullscreen-container">4</div>
     </body>
-=======
-
-<head>
-  <link rel="stylesheet" href="style.css">
-  <script src="js/vue.js" charset="utf-8"></script>
-  <script type="text/x-template" id="modal-template">
-    <transition name="modal">
-      <div class="modal-mask">
-        <div class="modal-wrapper">
-          <div class="modal-container">
-
-            <div class="modal-header">
-              <slot name="header">
-                default header
-              </slot>
-            </div>
-
-            <div class="modal-body">
-              <slot name="body">
-                default body
-              </slot>
-            </div>
-
-            <div class="modal-footer">
-              <slot name="footer">
-                default footer
-                <button class="modal-default-button" @click="$emit('close')">
-                OK
-              </button>
-              </slot>
-            </div>
-          </div>
-        </div>
-      </div>
-    </transition>
-  </script>
-</head>
-<title>Gaudi Gates</title>
-
-
-
 <body>
   <div id="app">
     <button id="show-modal" @click="showModal = true">Show Modal</button>
@@ -119,5 +111,4 @@
   </script>
 </body>
 
->>>>>>> 7b1e0594b9286b730dac15934f2dc8cf72566412
 </html>

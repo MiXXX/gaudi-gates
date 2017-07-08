@@ -18,10 +18,12 @@ body {
   background-color: #f1f1f1;
 }
 
-<<<<<<< HEAD
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height:60px;
+    padding: 15px;
 }
 .header-right{
     display: flex;
@@ -40,7 +42,37 @@ header{
     width:245px;
     height:195px;
     background-color: aqua;
-=======
+}
+.main-menu{
+    display:flex;
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    margin-right:20px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 0 20px;
+    text-decoration:none;
+    color:#000;
+    font-size:18px;
+}
+li a :hover{    
+    color:#B7AC97;
+}
+.phone{
+    font-size: 22px;
+    color:#B7AC97;
+}
 .modal-mask {
   position: fixed;
   z-index: 9998;
@@ -103,5 +135,4 @@ header{
 .modal-leave-active .modal-container {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
->>>>>>> 7b1e0594b9286b730dac15934f2dc8cf72566412
 }
