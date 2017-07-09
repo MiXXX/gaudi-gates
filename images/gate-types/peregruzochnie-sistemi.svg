@@ -1,0 +1,26 @@
+<svg width="109" height="84" viewBox="0 0 109 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" transform="translate(1492 -773)">
+<g id="Group">
+<g id="Line 3">
+<use xlink:href="#path0_stroke" transform="matrix(0.827868 0.560923 -0.557792 0.829981 -1490 785.857)" fill="#EB5757"/>
+</g>
+<g id="Line 3">
+<use xlink:href="#path0_stroke" transform="matrix(-0.827868 0.560923 0.557792 0.829981 -1385 785.857)" fill="#EB5757"/>
+</g>
+<g id="Rectangle 17">
+<use xlink:href="#path1_fill" transform="matrix(-1 1.22965e-16 -1.21967e-16 -1 -1385 800.429)" fill="#FFFFFF"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="matrix(-1 1.22965e-16 -1.21967e-16 -1 -1385 800.429)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="matrix(-1 1.22965e-16 -1.21967e-16 -1 -1385 800.429)" fill="#EB5757"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 0L 126.832 0L 126.832 -2L 0 -2L 0 0Z"/>
+<path id="path1_fill" d="M 0 0L 105 0L 105 27.4286L 0 27.4286L 0 0Z"/>
+<path id="path2_stroke_2x" d="M 0 0L 0 -2L -2 -2L -2 0L 0 0ZM 105 0L 107 0L 107 -2L 105 -2L 105 0ZM 105 27.4286L 105 29.4286L 107 29.4286L 107 27.4286L 105 27.4286ZM 0 27.4286L -2 27.4286L -2 29.4286L 0 29.4286L 0 27.4286ZM 0 2L 105 2L 105 -2L 0 -2L 0 2ZM 103 0L 103 27.4286L 107 27.4286L 107 0L 103 0ZM 105 25.4286L 0 25.4286L 0 29.4286L 105 29.4286L 105 25.4286ZM 2 27.4286L 2 0L -2 0L -2 27.4286L 2 27.4286Z"/>
+</defs>
+</svg>

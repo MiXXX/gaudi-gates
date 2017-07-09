@@ -3,12 +3,15 @@ body {
   margin: 0;
   font-family: 'FundamentalBrigade';
 }
-
+h2 {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 48px;
+}
 @font-face {
   font-family: 'FundamentalBrigade';
-  src: url('fonts/FundamentalBrigade.woff') format('woff'),
-       url('fonts/FundamentalBrigade.ttf') format('truetype'),
-       url('fonts/FundamentalBrigade.svg#FundamentalBrigade') format('svg');
+  src: url('fonts/FundamentalBrigade.woff') format('woff'), url('fonts/FundamentalBrigade.ttf') format('truetype'), url('fonts/FundamentalBrigade.svg#FundamentalBrigade') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -18,61 +21,107 @@ body {
   background-color: #f1f1f1;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height:60px;
-    padding: 15px;
-}
-.header-right{
-    display: flex;
-    justify-content: space-between;
-}
-.gate-types{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 24px 72px;  
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 15px;
 }
 
-.gate-type{
-    width:245px;
-    height:195px;
-    background-color: aqua;
+.header-right {
+  display: flex;
+  justify-content: space-between;
 }
-.main-menu{
-    display:flex;
-    justify-content: space-between;
+
+.gate-types-container {
+  padding: 37px 0px;  
 }
+
+.gate-types {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 24px 72px;
+}
+
+.gate-type {
+  width: 245px;
+  height: 195px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gate-type span {
+  color: #000;
+  font-size: 18px;
+  margin-top: 28px;
+}
+
+.gate-type__icon {
+  -webkit-mask-image: url(images/gate-types/avtomatika.svg);
+  mask-image: url(images/gate-types/avtomatika.svg);
+  background-color: #EB5757;
+}
+
+.gate-type__icon:after {
+  content: " ";
+  width: 94px;
+  height: 93px;
+  display: block;
+}
+
+.gate-type:hover {
+  background-color: #EB5757;
+}
+
+.gate-type:hover .gate-type__icon {
+  background-color: #fff;
+}
+
+.gate-type:hover span {
+  color: #fff;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden; 
-    margin-right:20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-right: 20px;
 }
 
 li {
-    float: left;
+  float: left;
 }
 
 li a {
-    display: block;
-    padding: 0 20px;
-    text-decoration:none;
-    color:#000;
-    font-size:18px;
+  display: block;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
 }
-li a :hover{    
-    color:#B7AC97;
+
+li a :hover {
+  color: #B7AC97;
 }
-.phone{
-    font-size: 22px;
-    color:#B7AC97;
+
+.phone {
+  font-size: 22px;
+  color: #B7AC97;
 }
+
 .modal-mask {
   position: fixed;
   z-index: 9998;
@@ -114,6 +163,7 @@ li a :hover{
   float: right;
 }
 
+
 /*
  * The following styles are auto-applied to elements with
  * transition="modal" when their visibility is toggled
@@ -131,8 +181,7 @@ li a :hover{
   opacity: 0;
 }
 
-.modal-enter .modal-container,
-.modal-leave-active .modal-container {
+.modal-enter .modal-container, .modal-leave-active .modal-container {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
