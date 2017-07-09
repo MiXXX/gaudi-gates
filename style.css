@@ -3,14 +3,14 @@ body {
   margin: 0;
   font-family: 'FundamentalBrigade';
 }
-<<<<<<< HEAD
+
 h2 {
   margin: 0 auto;
   display: block;
   text-align: center;
   font-size: 48px;
 }
-=======
+
 
 h1{
     font-size: 72px;
@@ -23,8 +23,13 @@ h2{
 p{
     font-size: 18px;   
 }
-
->>>>>>> 79752d99aebd44a08260ab578b02588733aa8835
+a{
+    font-size: 18px;   
+    color: #0888FF;
+}
+span{
+    font-size: 18px;
+}
 @font-face {
   font-family: 'FundamentalBrigade';
   src: url('fonts/FundamentalBrigade.woff') format('woff'), url('fonts/FundamentalBrigade.ttf') format('truetype'), url('fonts/FundamentalBrigade.svg#FundamentalBrigade') format('svg');
@@ -38,7 +43,6 @@ p{
 .partners{
     height:142px;
 }
-<<<<<<< HEAD
 
 header {
   display: flex;
@@ -97,7 +101,8 @@ header {
 
 .gate-type:hover {
   background-color: #EB5757;
-=======
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -111,7 +116,7 @@ header{
 .header-right{
     display: flex;
     justify-content: space-between;
->>>>>>> 79752d99aebd44a08260ab578b02588733aa8835
+
 }
 
 .gate-type:hover .gate-type__icon {
@@ -197,7 +202,6 @@ li a :hover {
   float: right;
 }
 
-<<<<<<< HEAD
 
 /*
  * The following styles are auto-applied to elements with
@@ -208,8 +212,6 @@ li a :hover {
  * these styles.
  */
 
-=======
->>>>>>> 79752d99aebd44a08260ab578b02588733aa8835
 .modal-enter {
   opacity: 0;
 }
@@ -264,3 +266,44 @@ a .slider-button{
     margin-top:-25px;
     margin-bottom: 35px;
 }
+.order-form{
+    width:470px;
+    height:498px;
+    padding: 54px 54px 0 54px ;
+    position:relative;
+    background-color:#fff;
+}
+.text-field{
+    width:100%;
+    height: 42px;
+    border-radius: 3px;
+    border: 1px #EBEBEB solid;
+    padding: 10px;
+    font-family: 'FundamentalBrigade';
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.submit{
+    position:absolute;
+    bottom:0px;
+    height: 60px;
+    background-color:#EB5757;
+    border:0px;
+    width:100%;
+    margin-left:-54px;
+    font-family: 'FundamentalBrigade';
+    font-size:24px;
+    color: #fff;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color:#FE7676;
+}
+.order-section{
+    display:flex;
+    justify-content: center;
+    background-image:url(images/order_back.jpg);
+    padding: 80px;
+    background-size: cover;
+}    
