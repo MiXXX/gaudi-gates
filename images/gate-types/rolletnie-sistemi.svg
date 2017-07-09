@@ -1,7 +1,8 @@
 <svg width="120" height="77" viewBox="0 0 120 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>Group.svg</title>
-<desc>Created using Figma</desc>
 <g id="Canvas" transform="translate(1241 -569)">
+<g id="Group">
+<g id="Group">
+<g id="Group">
 <g id="Group">
 <g id="Group">
 <g id="Line">
@@ -20,6 +21,7 @@
 <use xlink:href="#path1_stroke" transform="translate(-1239.19 579.677)" fill="#EB5757"/>
 </g>
 <g id="Ellipse 2">
+<use xlink:href="#path2_fill" transform="translate(-1141.24 570)" fill="#FFFFFF"/>
 <mask id="mask0_outline_ins">
 <use xlink:href="#path2_fill" fill="white" transform="translate(-1141.24 570)"/>
 </mask>
@@ -28,6 +30,7 @@
 </g>
 </g>
 <g id="Ellipse 2">
+<use xlink:href="#path4_fill" transform="translate(-1136.38 574.839)" fill="#FFFFFF"/>
 <mask id="mask1_outline_ins">
 <use xlink:href="#path4_fill" fill="white" transform="translate(-1136.38 574.839)"/>
 </mask>
@@ -37,6 +40,9 @@
 </g>
 <g id="Union">
 <use xlink:href="#path6_fill" transform="translate(-1240.19 569.806)" fill="#EB5757"/>
+</g>
+</g>
+</g>
 </g>
 </g>
 </g>
