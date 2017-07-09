@@ -3,14 +3,12 @@ body {
   margin: 0;
   font-family: 'FundamentalBrigade';
 }
-<<<<<<< HEAD
 h2 {
   margin: 0 auto;
   display: block;
   text-align: center;
   font-size: 48px;
 }
-=======
 
 h1{
     font-size: 72px;
@@ -21,10 +19,9 @@ h2{
 }
 
 p{
-    font-size: 18px;   
+    font-size: 18px;
 }
 
->>>>>>> 79752d99aebd44a08260ab578b02588733aa8835
 @font-face {
   font-family: 'FundamentalBrigade';
   src: url('fonts/FundamentalBrigade.woff') format('woff'), url('fonts/FundamentalBrigade.ttf') format('truetype'), url('fonts/FundamentalBrigade.svg#FundamentalBrigade') format('svg');
@@ -38,15 +35,6 @@ p{
 .partners{
     height:142px;
 }
-<<<<<<< HEAD
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 60px;
-  padding: 15px;
-}
 
 .header-right {
   display: flex;
@@ -54,7 +42,7 @@ header {
 }
 
 .gate-types-container {
-  padding: 37px 0px;  
+  padding: 37px 0px;
 }
 
 .gate-types {
@@ -97,7 +85,7 @@ header {
 
 .gate-type:hover {
   background-color: #EB5757;
-=======
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -111,7 +99,6 @@ header{
 .header-right{
     display: flex;
     justify-content: space-between;
->>>>>>> 79752d99aebd44a08260ab578b02588733aa8835
 }
 
 .gate-type:hover .gate-type__icon {
@@ -197,19 +184,6 @@ li a :hover {
   float: right;
 }
 
-<<<<<<< HEAD
-
-/*
- * The following styles are auto-applied to elements with
- * transition="modal" when their visibility is toggled
- * by Vue.js.
- *
- * You can easily play with the modal transition by editing
- * these styles.
- */
-
-=======
->>>>>>> 79752d99aebd44a08260ab578b02588733aa8835
 .modal-enter {
   opacity: 0;
 }
