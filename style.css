@@ -3,12 +3,28 @@ body {
   margin: 0;
   font-family: 'FundamentalBrigade';
 }
+<<<<<<< HEAD
 h2 {
   margin: 0 auto;
   display: block;
   text-align: center;
   font-size: 48px;
 }
+=======
+
+h1{
+    font-size: 72px;
+}
+
+h2{
+    font-size: 48px;
+}
+
+p{
+    font-size: 18px;   
+}
+
+>>>>>>> 79752d99aebd44a08260ab578b02588733aa8835
 @font-face {
   font-family: 'FundamentalBrigade';
   src: url('fonts/FundamentalBrigade.woff') format('woff'), url('fonts/FundamentalBrigade.ttf') format('truetype'), url('fonts/FundamentalBrigade.svg#FundamentalBrigade') format('svg');
@@ -16,10 +32,13 @@ h2 {
   font-style: normal;
 }
 
-.fullscreen-container {
-  height: 100vh;
-  background-color: #f1f1f1;
+.top-container {
+    height: 100vh;
 }
+.partners{
+    height:142px;
+}
+<<<<<<< HEAD
 
 header {
   display: flex;
@@ -78,6 +97,21 @@ header {
 
 .gate-type:hover {
   background-color: #EB5757;
+=======
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:60px;
+    padding: 15px;
+}
+.phone{
+    margin-right:10px;
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+>>>>>>> 79752d99aebd44a08260ab578b02588733aa8835
 }
 
 .gate-type:hover .gate-type__icon {
@@ -163,6 +197,7 @@ li a :hover {
   float: right;
 }
 
+<<<<<<< HEAD
 
 /*
  * The following styles are auto-applied to elements with
@@ -173,6 +208,8 @@ li a :hover {
  * these styles.
  */
 
+=======
+>>>>>>> 79752d99aebd44a08260ab578b02588733aa8835
 .modal-enter {
   opacity: 0;
 }
@@ -184,4 +221,46 @@ li a :hover {
 .modal-enter .modal-container, .modal-leave-active .modal-container {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+.slider-container{
+    background-color:#000;
+    position:relative;
+    height:80vh;
+}
+.slider{
+    position:absolute;
+    width:100%;
+    height:100%;
+    background-image:url(images/gates.png);
+    background-size:cover;
+    top:0;
+    opacity: 0.75;
+    z-index:1;
+}
+.description{
+    z-index:2;
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    padding: 60px;
+    color: #fff;
+    width:650px;
+}
+.slider-button{
+    padding:12px 30px;
+    background-color:#EB5757;
+    font-size:20px;
+    width:126px;
+}
+a .slider-button{
+    color:#fff;
+}
+.slider-text h1{
+    letter-spacing: 3;
+    font-size: 9vh;
+}
+.slider-text p{
+    line-height: 1.6;
+    margin-top:-25px;
+    margin-bottom: 35px;
 }
