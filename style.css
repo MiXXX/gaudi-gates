@@ -40,7 +40,6 @@ span{
 }
 
 .top-container {
-    height: 100vh;
 }
 .partners{
     height:142px;
@@ -90,15 +89,152 @@ header {
 }
 
 .gate-type__icon {
-  -webkit-mask-image: url(images/gate-types/avtomatika.svg);
-  mask-image: url(images/gate-types/avtomatika.svg);
   background-color: #EB5757;
 }
 
-.gate-type__icon:after {
-  content: " ";
+.gate-type__icon-otkatnie-vorota {
+  -webkit-mask-image: url(images/gate-types/otkatnie-vorota.svg);
+  mask-image: url(images/gate-types/otkatnie-vorota.svg);
+}
+
+.gate-type__icon-otkatnie-vorota:after {
+  width: 105px;
+  height: 91px;
+}
+
+.gate-type__icon-sekcionnie-vorota {
+  -webkit-mask-image: url(images/gate-types/sekcionnie-vorota.svg);
+  mask-image: url(images/gate-types/sekcionnie-vorota.svg);
+}
+
+.gate-type__icon-sekcionnie-vorota:after {
+  width: 122px;
+  height: 71px;
+}
+
+.gate-type__icon-rolletnie-sistemi {
+  -webkit-mask-image: url(images/gate-types/rolletnie-sistemi.svg);
+  mask-image: url(images/gate-types/rolletnie-sistemi.svg);
+}
+
+.gate-type__icon-rolletnie-sistemi:after {
+  width: 120px;
+  height: 77px;
+}
+
+.gate-type__icon-zabori {
+  -webkit-mask-image: url(images/gate-types/zabori.svg);
+  mask-image: url(images/gate-types/zabori.svg);
+}
+
+.gate-type__icon-zabori::after {
+  width: 104px;
+  height: 77px;
+}
+
+.gate-type__icon-ograjdeniya-dlya-parkovki {
+  -webkit-mask-image: url(images/gate-types/ograjdeniya-dlya-parkovki.svg);
+  mask-image: url(images/gate-types/ograjdeniya-dlya-parkovki.svg);
+}
+
+.gate-type__icon-ograjdeniya-dlya-parkovki::after {
+  width: 108px;
+  height: 75px;
+}
+
+.gate-type__icon-protivopojarnie-proemi {
+  -webkit-mask-image: url(images/gate-types/protivopojarnie-proemi.svg);
+  mask-image: url(images/gate-types/protivopojarnie-proemi.svg);
+}
+
+.gate-type__icon-protivopojarnie-proemi::after {
+  width: 128px;
+  height: 77px;
+}
+
+.gate-type__icon-peregruzochnie-sistemi {
+  -webkit-mask-image: url(images/gate-types/peregruzochnie-sistemi.svg);
+  mask-image: url(images/gate-types/peregruzochnie-sistemi.svg);
+}
+
+.gate-type__icon-peregruzochnie-sistemi::after {
+  width: 105px;
+  height: 84px;
+}
+
+.gate-type__icon-avtomatika {
+  -webkit-mask-image: url(images/gate-types/avtomatika.svg);
+  mask-image: url(images/gate-types/avtomatika.svg);
+}
+
+.gate-type__icon-avtomatika::after {
   width: 94px;
   height: 93px;
+}
+
+.gate-type__icon-raspashnie-vorota {
+  -webkit-mask-image: url(images/gate-types/raspashnie-vorota.svg);
+  mask-image: url(images/gate-types/raspashnie-vorota.svg);
+}
+
+.gate-type__icon-raspashnie-vorota::after {
+  width: 116px;
+  height: 75px;
+}
+
+.gate-type__icon-shlagbaumi {
+  -webkit-mask-image: url(images/gate-types/shlagbaumi.svg);
+  mask-image: url(images/gate-types/shlagbaumi.svg);
+}
+
+.gate-type__icon-shlagbaumi::after {
+  width: 115px;
+  height: 72px;
+}
+
+.gate-type__icon-modulnie-konstrukcii {
+  -webkit-mask-image: url(images/gate-types/modulnie-konstrukcii.svg);
+  mask-image: url(images/gate-types/modulnie-konstrukcii.svg);
+}
+
+.gate-type__icon-modulnie-konstrukcii::after {
+  width: 128px;
+  height: 87px;
+}
+
+.gate-type__icon-kovanie-vorota {
+  -webkit-mask-image: url(images/gate-types/kovanie-vorota.svg);
+  mask-image: url(images/gate-types/kovanie-vorota.svg);
+}
+
+.gate-type__icon-kovanie-vorota::after {
+  width: 86px;
+  height: 86px;
+}
+
+.gate-type__icon-pol-dlya-garaja {
+  -webkit-mask-image: url(images/gate-types/pol-dlya-garaja.svg);
+  mask-image: url(images/gate-types/pol-dlya-garaja.svg);
+}
+
+.gate-type__icon-pol-dlya-garaja::after {
+  width: 100px;
+  height: 85px;
+}
+
+.gate-type__icon-remont-vorot {
+  -webkit-mask-image: url(images/gate-types/remont-vorot.svg);
+  mask-image: url(images/gate-types/remont-vorot.svg);
+}
+
+.gate-type__icon-remont-vorot::after {
+  width: 84px;
+  height: 84px;
+}
+
+
+.gate-type__icon:after {
+  content: " ";
   display: block;
 }
 
