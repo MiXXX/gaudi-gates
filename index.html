@@ -1,88 +1,127 @@
 <html>
+
 <head>
-  <link rel="stylesheet" href="style.css">
-  <script src="js/vue.js" charset="utf-8"></script>
-  <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
-  <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
-  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="js/slick/slick.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('.partners').slick({
-        infinite: true,
-        slidesToShow: 5,
-        slidesToScroll: 5,
-        autoplay: true,
-        autoplaySpeed: 4000,
-      });
-    });
-  </script>
-  <script type="text/x-template" id="modal-template">
-    <transition name="modal">
-      <div class="modal-mask">
-        <div class="modal-wrapper">
-          <div class="modal-container">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/vue.js" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css" />
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.partners').slick({
+                infinite: true,
+                slidesToShow: 5,
+                slidesToScroll: 5,
+                autoplay: true,
+                autoplaySpeed: 4000,
+            });
+            
+        });
 
-            <div class="modal-header">
-              <slot name="header">
-                default header
-              </slot>
-            </div>
+    </script>
+    <script type="text/x-template" id="modal-template">
+        <transition name="modal">
+            <div class="modal-mask">
+                <div class="modal-wrapper">
+                    <div class="modal-container">
 
-            <div class="modal-body">
-              <slot name="body">
-                default body
-              </slot>
-            </div>
+                        <div class="modal-header">
+                            <slot name="header">
+                                default header
+                            </slot>
+                        </div>
 
-            <div class="modal-footer">
-              <slot name="footer">
-                default footer
-                <button class="modal-default-button" @click="$emit('close')">
+                        <div class="modal-body">
+                            <slot name="body">
+                                default body
+                            </slot>
+                        </div>
+
+                        <div class="modal-footer">
+                            <slot name="footer">
+                                default footer
+                                <button class="modal-default-button" @click="$emit('close')">
                 OK
               </button>
-              </slot>
+                            </slot>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </transition>
-  </script>
+        </transition>
+    </script>
 </head>
 <title>Gaudi Gates</title>
 
 <body>
-  <div id="app">
-    <div class="top-container">
-      <header>
-        <div class="logo"><img src="images/logo.svg" alt=""></div>
-        <div class="header-right">
-          <div class="main-menu">
-            <ul>
-              <li><a href="#">Главная</a></li>
-              <li><a href="#">Типы ворот</a></li>
-              <li><a href="#">Отзывы</a></li>
-              <li><a href="#">Полезные советы</a></li>
-              <li><a href="#">Контакты</a></li>
-            </ul>
-          </div>
-          <div class="phone">+7 (499) 391-16-81</div>
-        </div>
-      </header>
-      <div class="slider-container">
-        <div class="description">
-          <div class="slider-text">
-            <h1>Автоматические ворота в Алматы</h1>
-            <p>Приводы с дистанционным управлением, ворота для гаражей, двери, шлагбаумы в Москве и области. Подбор по каталогу. Производство Италия, Россия. Выезд на замер бесплатно. Подбор профессионалами комплектующих от различных производителей</p>
-          </div>
-          <a href="#" style="text-decoration:none;">
-            <div class="slider-button">
-              Оформить заказ
+    <div id="app">
+        <div class="top-container">
+            <header>
+                <div class="logo"><img src="images/logo.svg" alt=""></div>
+                <div class="header-right">
+                    <div class="main-menu">
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#">Типы ворот</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Полезные советы</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="phone">+7 (499) 391-16-81</div>
+                </div>
+            </header>
+            <div class="slider-container">
+                <div class="description">
+                    <div class="slider-text">
+                        <h1>Автоматические ворота в Алматы</h1>
+                        <p>Приводы с дистанционным управлением, ворота для гаражей, двери, шлагбаумы в Москве и области. Подбор по каталогу. Производство Италия, Россия. Выезд на замер бесплатно. Подбор профессионалами комплектующих от различных производителей</p>
+                    </div>
+                    <a href="#" style="text-decoration:none;">
+                        <div class="slider-button">
+                            Оформить заказ
+                        </div>
+                    </a>
+                </div>
+                <div class="slider"></div>
             </div>
-          </a>
         </div>
+        <div class="partners">
+            <div>
+                <h3>1</h3>
+            </div>
+            <div>
+                <h3>2</h3>
+            </div>
+            <div>
+                <h3>3</h3>
+            </div>
+            <div>
+                <h3>4</h3>
+            </div>
+            <div>
+                <h3>5</h3>
+            </div>
+            <div>
+                <h3>6</h3>
+            </div>
+            <div>
+                <h3>7</h3>
+            </div>
+            <div>
+                <h3>8</h3>
+            </div>
         </div>
-      </div>
+        <div class="gate-types-container">
+            <h2>Типы ворот</h2>
+            <div class="gate-types">
+                <div class="gate-type" v-for="gateType in gateTypes">
+                    <div class="gate-type__icon" v-bind:class='gateType.iconClass'></div>
+                    <span>{{ gateType.name }}</span>
+                </div>
+            </div>
+        </div>
         <div class="order-section">
             <div class="order-form">
                 <h2>Сделать заказ</h2>
@@ -105,104 +144,113 @@
         </div>
         <div class="recent-works-section">
             <h2>Наши работы</h2>
-            <div>Все работы  &nbsp &nbsp<img src="images/arrow.png" alt=""></div>
+            <div>Все работы &nbsp &nbsp<img src="images/arrow.png" alt=""></div>
         </div>
-      <div class="partners">
-        <div>
-          <h3>1</h3></div>
-        <div>
-          <h3>2</h3></div>
-        <div>
-          <h3>3</h3></div>
-        <div>
-          <h3>4</h3></div>
-        <div>
-          <h3>5</h3></div>
-        <div>
-          <h3>6</h3></div>
-        <div>
-          <h3>7</h3></div>
-        <div>
-          <h3>8</h3></div>
-      </div>
-    <div class="gate-types-container">
-      <h2>Типы ворот</h2>
-      <div class="gate-types">
-        <div class="gate-type" v-for="gateType in gateTypes">
-          <div class="gate-type__icon" v-bind:class='gateType.iconClass'></div>
-          <span>{{ gateType.name }}</span>
+        <div class="testimonials">
+            <h2 style="color:#fff;">Отзывы</h2>
+            <div class="videos-container">
+                <div class="testimonial">
+                    <div class="testimonial-video" style="background-image:url(images/testimonial2.jpg)"><img src="images/play.png" alt=""></div>
+                    <div class="testimonial-text">
+                        <div class="t-left">Сергей Иванов, 28 лет</div>
+                        <div class="t-right">Откатные ворота</div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-video" style="background-image:url(images/testimonial1.jpg)"><img src="images/play.png" alt=""></div>
+                    <div class="testimonial-text">
+                        <div class="t-left">Хосе Мануэль, 22 года</div>
+                        <div class="t-right">Перегрузочные системы</div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+        <footer>
+                    <div class="footer-content">
+                        <div class="main-menu">
+                            <ul>
+                                <li><a href="#">Главная</a></li>
+                                <li><a href="#">Типы ворот</a></li>
+                                <li><a href="#">Отзывы</a></li>
+                                <li><a href="#">Полезные советы</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="phone">+7 (499) 391-16-81</div>
+                       
+                    </div>
+        </footer>
+            
     </div>
-  </div>
-  <script type="text/javascript">
-    Vue.component('modal', {
-      template: '#modal-template'
-    })
-    new Vue({
-      el: '#app',
-      data: {
-        showModal: false,
-        gateTypes: [{
-            iconClass: 'gate-type__icon-otkatnie-vorota',
-            name: 'Откатные ворота'
-          },
-          {
-            iconClass: 'gate-type__icon-sekcionnie-vorota',
-            name: 'Секционные ворота'
-          },
-          {
-            iconClass: 'gate-type__icon-rolletnie-sistemi',
-            name: 'Роллетные системы'
-          },
-          {
-            iconClass: 'gate-type__icon-zabori',
-            name: 'Заборы'
-          },
-          {
-            iconClass: 'gate-type__icon-ograjdeniya-dlya-parkovki',
-            name: 'Ограждения для парковки'
-          },
-          {
-            iconClass: 'gate-type__icon-protivopojarnie-proemi',
-            name: 'Противопожарные проеми'
-          },
-          {
-            iconClass: 'gate-type__icon-peregruzochnie-sistemi',
-            name: 'Перегрузочные системы'
-          },
-          {
-            iconClass: 'gate-type__icon-avtomatika',
-            name: 'Автоматика'
-          },
-          {
-            iconClass: 'gate-type__icon-raspashnie-vorota',
-            name: 'Распашные ворота'
-          },
-          {
-            iconClass: 'gate-type__icon-shlagbaumi',
-            name: 'Шлагбаумы'
-          },
-          {
-            iconClass: 'gate-type__icon-modulnie-konstrukcii',
-            name: 'Модульные конструкции'
-          },
-          {
-            iconClass: 'gate-type__icon-kovanie-vorota',
-            name: 'Кованые ворота и заборы'
-          },
-          {
-            iconClass: 'gate-type__icon-pol-dlya-garaja',
-            name: 'Пол для гаража'
-          },
-          {
-            iconClass: 'gate-type__icon-remont-vorot',
-            name: 'Ремонт ворот'
-          }
-        ]
-      }
-    })
-  </script>
+    <script type="text/javascript">
+        Vue.component('modal', {
+            template: '#modal-template'
+        })
+        new Vue({
+            el: '#app',
+            data: {
+                showModal: false,
+                gateTypes: [{
+                        iconClass: 'gate-type__icon-otkatnie-vorota',
+                        name: 'Откатные ворота'
+                    },
+                    {
+                        iconClass: 'gate-type__icon-sekcionnie-vorota',
+                        name: 'Секционные ворота'
+                    },
+                    {
+                        iconClass: 'gate-type__icon-rolletnie-sistemi',
+                        name: 'Роллетные системы'
+                    },
+                    {
+                        iconClass: 'gate-type__icon-zabori',
+                        name: 'Заборы'
+                    },
+                    {
+                        iconClass: 'gate-type__icon-ograjdeniya-dlya-parkovki',
+                        name: 'Ограждения для парковки'
+                    },
+                    {
+                        iconClass: 'gate-type__icon-protivopojarnie-proemi',
+                        name: 'Противопожарные проеми'
+                    },
+                    {
+                        iconClass: 'gate-type__icon-peregruzochnie-sistemi',
+                        name: 'Перегрузочные системы'
+                    },
+                    {
+                        iconClass: 'gate-type__icon-avtomatika',
+                        name: 'Автоматика'
+                    },
+                    {
+                        iconClass: 'gate-type__icon-raspashnie-vorota',
+                        name: 'Распашные ворота'
+                    },
+                    {
+                        iconClass: 'gate-type__icon-shlagbaumi',
+                        name: 'Шлагбаумы'
+                    },
+                    {
+                        iconClass: 'gate-type__icon-modulnie-konstrukcii',
+                        name: 'Модульные конструкции'
+                    },
+                    {
+                        iconClass: 'gate-type__icon-kovanie-vorota',
+                        name: 'Кованые ворота и заборы'
+                    },
+                    {
+                        iconClass: 'gate-type__icon-pol-dlya-garaja',
+                        name: 'Пол для гаража'
+                    },
+                    {
+                        iconClass: 'gate-type__icon-remont-vorot',
+                        name: 'Ремонт ворот'
+                    }
+                ]
+            }
+        })
+
+    </script>
 </body>
 
 
