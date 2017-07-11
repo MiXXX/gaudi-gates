@@ -9,15 +9,12 @@ h2 {
   display: block;
   text-align: center;
   font-size: 48px;
+  letter-spacing: 1px;
 }
 
 
 h1{
     font-size: 72px;
-}
-
-h2{
-    font-size: 48px;
 }
 
 p{
@@ -43,6 +40,8 @@ span{
 }
 .partners{
     height:142px;
+    width:100%;
+    overflow:hidden;
 }
 
 
@@ -402,6 +401,10 @@ a .slider-button{
     position:relative;
     background-color:#fff;
 }
+.order-form h2{
+    margin-bottom: 25px;
+    margin-top:-15px;
+}
 .text-field{
     width:100%;
     height: 42px;
@@ -482,4 +485,69 @@ a .slider-button{
     font-size:18px;
     color:#C1C1C1;
     text-align: center;
+}
+.testimonials{
+    background-color: #B7AC97;
+    padding:61px;
+}
+.testimonial-video{
+    width:570px;
+    height:335px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#000;
+    border-radius: 6px;
+    margin-bottom: 33px;
+    background-size: cover;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.testimonial-video:hover{
+    opacity: 1;
+}
+.t-left{
+    font-size:24px;
+    color:#fff;
+}
+.t-right{
+    font-size:24px;
+    opacity: 0.4;
+    color:#fff;
+}
+.testimonial-text{
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial{
+    width:570px!important;
+}
+.videos-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 52px;
+}
+footer{
+    height: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-content{
+    height:100px;
+    display:flex;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-content .phone{
+    margin-top: 40px;
+}
+.footer-content .main-menu li a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-right: 40px;
 }
