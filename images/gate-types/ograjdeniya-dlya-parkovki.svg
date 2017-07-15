@@ -1,0 +1,24 @@
+<svg width="110" height="75" viewBox="0 0 110 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" transform="translate(739 -570)">
+<g id="Group">
+<g id="Group">
+<g id="Union">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-739 570)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-739 570)" fill="#EB5757"/>
+</g>
+</g>
+<g id="Line 2">
+<use xlink:href="#path2_stroke" transform="matrix(0.690827 0.72302 -0.722608 0.691258 -701.119 571.613)" fill="#EB5757"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 35.6796 0C 15.9743 0 0 15.9743 0 35.6796L 0 75L 78.1791 75L 78.1791 35.6796C 78.1791 15.9743 62.2048 0 42.4995 0L 35.6796 0Z"/>
+<path id="path1_stroke_2x" d="M 0 75L -2 75L -2 77L 0 77L 0 75ZM 78.1791 75L 78.1791 77L 80.1791 77L 80.1791 75L 78.1791 75ZM 2 35.6796C 2 17.0789 17.0789 2 35.6796 2L 35.6796 -2C 14.8697 -2 -2 14.8697 -2 35.6796L 2 35.6796ZM 2 75L 2 35.6796L -2 35.6796L -2 75L 2 75ZM 78.1791 73L 0 73L 0 77L 78.1791 77L 78.1791 73ZM 76.1791 35.6796L 76.1791 75L 80.1791 75L 80.1791 35.6796L 76.1791 35.6796ZM 42.4995 2C 61.1002 2 76.1791 17.0789 76.1791 35.6796L 80.1791 35.6796C 80.1791 14.8697 63.3093 -2 42.4995 -2L 42.4995 2ZM 35.6796 2L 42.4995 2L 42.4995 -2L 35.6796 -2L 35.6796 2Z"/>
+<path id="path2_stroke" d="M 0 0L 101.501 0L 101.501 -2L 0 -2L 0 0Z"/>
+</defs>
+</svg>

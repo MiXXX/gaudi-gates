@@ -1,0 +1,60 @@
+<svg width="116" height="75" viewBox="0 0 116 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" transform="translate(1005 -780)">
+<g id="Group">
+<g id="Rectangle 17">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(-1002.55 780)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(-1002.55 780)" fill="#EB5757"/>
+</g>
+</g>
+<g id="Rectangle 17">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="matrix(-1 1.20898e-16 -1.24052e-16 -1 -891.451 855)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="matrix(-1 1.20898e-16 -1.24052e-16 -1 -891.451 855)" fill="#EB5757"/>
+</g>
+</g>
+<g id="Rectangle 18">
+<mask id="mask2_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="matrix(-1 1.20898e-16 -1.24052e-16 -1 -889 810)"/>
+</mask>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="matrix(-1 1.20898e-16 -1.24052e-16 -1 -889 810)" fill="#EB5757"/>
+</g>
+</g>
+<g id="Rectangle 18">
+<mask id="mask3_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="matrix(-1 1.20898e-16 -1.24052e-16 -1 -889 843)"/>
+</mask>
+<g mask="url(#mask3_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="matrix(-1 1.20898e-16 -1.24052e-16 -1 -889 843)" fill="#EB5757"/>
+</g>
+</g>
+<g id="Rectangle 18">
+<mask id="mask4_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="matrix(-1 1.20898e-16 -1.24052e-16 -1 -998 810)"/>
+</mask>
+<g mask="url(#mask4_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="matrix(-1 1.20898e-16 -1.24052e-16 -1 -998 810)" fill="#EB5757"/>
+</g>
+</g>
+<g id="Rectangle 18">
+<mask id="mask5_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="matrix(-1 1.20898e-16 -1.24052e-16 -1 -998 843)"/>
+</mask>
+<g mask="url(#mask5_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="matrix(-1 1.20898e-16 -1.24052e-16 -1 -998 843)" fill="#EB5757"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 56.3662 0L 56.3662 75L 0 75L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -2L -2 -2L -2 0L 0 0ZM 56.3662 0L 58.3662 0L 58.3662 -2L 56.3662 -2L 56.3662 0ZM 56.3662 75L 56.3662 77L 58.3662 77L 58.3662 75L 56.3662 75ZM 0 75L -2 75L -2 77L 0 77L 0 75ZM 0 2L 56.3662 2L 56.3662 -2L 0 -2L 0 2ZM 54.3662 0L 54.3662 75L 58.3662 75L 58.3662 0L 54.3662 0ZM 56.3662 73L 0 73L 0 77L 56.3662 77L 56.3662 73ZM 2 75L 2 0L -2 0L -2 75L 2 75Z"/>
+<path id="path2_fill" d="M 0 0L 7 0L 7 18L 0 18L 0 0Z"/>
+<path id="path3_stroke_2x" d="M 0 0L 0 -2L -2 -2L -2 0L 0 0ZM 7 0L 9 0L 9 -2L 7 -2L 7 0ZM 7 18L 7 20L 9 20L 9 18L 7 18ZM 0 18L -2 18L -2 20L 0 20L 0 18ZM 0 2L 7 2L 7 -2L 0 -2L 0 2ZM 5 0L 5 18L 9 18L 9 0L 5 0ZM 7 16L 0 16L 0 20L 7 20L 7 16ZM 2 18L 2 0L -2 0L -2 18L 2 18Z"/>
+</defs>
+</svg>

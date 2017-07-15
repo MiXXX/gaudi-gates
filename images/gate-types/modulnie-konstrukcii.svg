@@ -1,0 +1,44 @@
+<svg width="128" height="87" viewBox="0 0 128 87" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Canvas" transform="translate(1622 -982)">
+<g id="Group">
+<g id="Rectangle 17">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="matrix(-1 1.21724e-16 -1.2321e-16 -1 -1557.06 1069)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="matrix(-1 1.21724e-16 -1.2321e-16 -1 -1557.06 1069)" fill="#EB5757"/>
+</g>
+</g>
+<g id="Rectangle 17">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="matrix(-1 1.21724e-16 -1.2321e-16 -1 -1557.06 1026.9)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="matrix(-1 1.21724e-16 -1.2321e-16 -1 -1557.06 1026.9)" fill="#EB5757"/>
+</g>
+</g>
+<g id="Rectangle 17">
+<mask id="mask2_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="matrix(-1 1.21724e-16 -1.2321e-16 -1 -1494 1069)"/>
+</mask>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="matrix(-1 1.21724e-16 -1.2321e-16 -1 -1494 1069)" fill="#EB5757"/>
+</g>
+</g>
+<g id="Rectangle 17">
+<mask id="mask3_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="matrix(-1 1.21724e-16 -1.2321e-16 -1 -1494 1026.9)"/>
+</mask>
+<g mask="url(#mask3_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="matrix(-1 1.21724e-16 -1.2321e-16 -1 -1494 1026.9)" fill="#EB5757"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 0L 64.9412 0L 64.9412 87L 0 87L 0 0Z"/>
+<path id="path1_stroke_2x" d="M 0 0L 0 -2L -2 -2L -2 0L 0 0ZM 64.9412 0L 66.9412 0L 66.9412 -2L 64.9412 -2L 64.9412 0ZM 64.9412 87L 64.9412 89L 66.9412 89L 66.9412 87L 64.9412 87ZM 0 87L -2 87L -2 89L 0 89L 0 87ZM 0 2L 64.9412 2L 64.9412 -2L 0 -2L 0 2ZM 62.9412 0L 62.9412 87L 66.9412 87L 66.9412 0L 62.9412 0ZM 64.9412 85L 0 85L 0 89L 64.9412 89L 64.9412 85ZM 2 87L 2 0L -2 0L -2 87L 2 87Z"/>
+<path id="path2_fill" d="M 0 0L 64.9412 0L 64.9412 44.9032L 0 44.9032L 0 0Z"/>
+<path id="path3_stroke_2x" d="M 0 0L 0 -2L -2 -2L -2 0L 0 0ZM 64.9412 0L 66.9412 0L 66.9412 -2L 64.9412 -2L 64.9412 0ZM 64.9412 44.9032L 64.9412 46.9032L 66.9412 46.9032L 66.9412 44.9032L 64.9412 44.9032ZM 0 44.9032L -2 44.9032L -2 46.9032L 0 46.9032L 0 44.9032ZM 0 2L 64.9412 2L 64.9412 -2L 0 -2L 0 2ZM 62.9412 0L 62.9412 44.9032L 66.9412 44.9032L 66.9412 0L 62.9412 0ZM 64.9412 42.9032L 0 42.9032L 0 46.9032L 64.9412 46.9032L 64.9412 42.9032ZM 2 44.9032L 2 0L -2 0L -2 44.9032L 2 44.9032Z"/>
+</defs>
+</svg>
